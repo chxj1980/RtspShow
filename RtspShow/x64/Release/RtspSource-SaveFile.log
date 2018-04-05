@@ -1,0 +1,19 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (CGSaveFile.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  RtspShow.cpp
+RtspShow.cpp(113): warning C4018: '<': signed/unsigned mismatch
+RtspShow.cpp(136): warning C4018: '<': signed/unsigned mismatch
+RtspShow.cpp(157): warning C4018: '<': signed/unsigned mismatch
+RtspShow.cpp(199): warning C4018: '<': signed/unsigned mismatch
+RtspShow.cpp(239): warning C4311: 'type cast': pointer truncation from 'uint8_t *' to 'unsigned int'
+RtspShow.cpp(239): warning C4302: 'type cast': truncation from 'uint8_t *' to 'unsigned int'
+RtspShow.cpp(235): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+RtspShow.cpp(249): warning C4477: 'fprintf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'uint8_t *'
+RtspShow.cpp(249): warning C4313: 'fprintf': '%x' in format string conflicts with argument 1 of type 'uint8_t *'
+RtspShow.cpp(256): warning C4996: 'avpicture_get_size': was declared deprecated
+  E:\work\RtspShow\include\libavcodec/avcodec.h(4898): note: see declaration of 'avpicture_get_size'
+RtspShow.cpp(258): warning C4996: 'avpicture_fill': was declared deprecated
+  E:\work\RtspShow\include\libavcodec/avcodec.h(4883): note: see declaration of 'avpicture_fill'
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  RtspSource-SaveFile.vcxproj -> E:\work\RtspShow\x64\Release\RtspShow.exe
+  RtspSource-SaveFile.vcxproj -> E:\work\RtspShow\x64\Release\RtspShow.pdb (Full PDB)
